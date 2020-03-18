@@ -1,0 +1,19 @@
+citHeader("To cite 'IFCdata' in publications, please use:")
+
+
+citEntry(entry = "manual",
+         title = "{IFCdata}: {A}n {R} {P}ackage for {I}maging {F}low {C}ytometry",
+         author = personList(person(given="Yohann", family="Demont"),
+                             person(given="Gautier", family="Stoll"),
+                             person(given="Guido", family="Kroemer"),
+                             person(given="Jean-Pierre", family="Marolleau"),
+                             person(given="Loïc", family = "Garçon")),
+organization = "INSERM, UPD, CHU Amiens",
+address = "Amiens, France",
+note = "version 0.0.1",
+year = "2020",
+url = "http://github.com/gitdemont/IFCdata",
+textVersion = paste("Demont Y., Stoll G., Kroemer G., Marolleau JP., Garçon L. (2020).",
+                    "IFCdata: Data for Imaging Flow Cytometry.",
+                    "INSERM, UPD, CHU Amiens.",
+                    "http://github.com/gitdemont/IFCdata"))
