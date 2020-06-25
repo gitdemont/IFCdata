@@ -2,5 +2,6 @@ Package: IFCdata
 Version: 0.0.1
 Depends: R (>= 3.4.0)
 Suggests: drat, IFC
-MD5sum: 4993221565862968f62cb935d6bafdcd
+License: GPL-3
+MD5sum: c53431c088e3cfaa6e9481be66f294f8
 NeedsCompilation: no
