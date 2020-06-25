@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>IFCdata</title>
+</head>
+<body>
+<h4>About</h4>
+This repository provides toy example of IFC data.
+It is aimed to illustrate how IFC package can be used to treat Imaging Flow Cytometry data.
+<p></p>
+<h4>Current Content</h4>
+Please <a href="https://github.com/gitdemont/IFCdata/tree/gh-pages/src/contrib">see here</a> for <strong>source</strong> package.
+<h4>Setup</h4>
+Install via <code>install.packages("IFCdata", repos = "https://gitdemont.github.io/IFCdata/", type = "source")</code>.
+<p></p>
+</body>
+</html>
