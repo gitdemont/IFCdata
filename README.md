@@ -1,4 +1,4 @@
-# Data for Imaging Flow Cytometry (IFC)
+# IFCdata: Data example for Imaging Flow Cytometry (IFC)
 
 ## INSTALLATION
 
@@ -30,7 +30,11 @@ help(IFCdata)
 
 ## DETAILS
 
-Data files of UT7/EPO cells stained to study cell cycle data acquired on ImageStream MkII(C) cytometer (Amnis(C), part of Luminex(C)). 
+Contains imaging flow cytometry data from 'ImageStream MkII (C)' cytometer ('Amnis(C)', part of 'Luminex(C)').
+
+Data examples are provided to illustrate how they can be handled by IFC package.
+
+They correspond to .rif, .cif and .daf files from UT7/EPO cells stained for cell cycle analysis. 
 
 ## DISCLAMER
 

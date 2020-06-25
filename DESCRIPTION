@@ -3,12 +3,12 @@ Encoding: UTF-8
 Type: Package
 Title: Data for Imaging Flow Cytometry
 Version: 0.0.1
-Date: 2020-03-18
+Date: 2020-06-25
 Maintainer: Yohann Demont <git.demont@gmail.com>
-Authors@R: c(person(given = 'Yohann', family = 'Demont', email = 'git.demont@gmail.com', role = c('aut', 'cre')), person(given = 'Gautier', family = 'Stoll', role = 'ctb'), person(given = 'Guido', family = 'Kroemer', role = 'ldr'), person(given = 'Jean-Pierre', family = 'Marolleau', role = 'ldr'), person(given = 'Loïc', family = 'Garçon', role = 'ldr'))
+Authors@R: c(person(given = 'Yohann', family = 'Demont', email = 'git.demont@gmail.com', role = c('aut', 'cre')), person(given = 'Jean-Pierre', family = 'Marolleau', role = 'ldr'), person(given = 'Loïc', family = 'Garçon', role = 'ldr'))
 BugReports: http://github.com/gitdemont/IFCdata/issues
-Description: Contains imaging flow cytometry data from 'ImageStream® MkII' cytometer ('Amnis®', part of 'Luminex®'). UT7/EPO cells were stained to study cell cycle. See the files 'inst/COPYRIGHTS' and 'inst/AUTHORS' for a list of copyright holders and authors.
+Description: Contains imaging flow cytometry data from 'ImageStream® MkII' cytometer ('Amnis®', part of 'Luminex®'). Data examples are provided to illustrate how they can be handled by IFC package. They correspond to .rif, .cif and .daf files from UT7/EPO cells stained for cell cycle analysis. See the files 'inst/COPYRIGHTS' and 'inst/AUTHORS' for a list of copyright holders and authors. See the files 'inst/staining' and 'inst/content' for detailed description of the staining procedure and file content
 Copyright: file inst/COPYRIGHTS
-License: Absolutely private. Only for author personal use. You are not authorized to use, to share, to modify, nor to reproduce any part of the code and or attached content and files without author express consent !
+License: GPL-3
 Depends: R (>= 3.4.0)
 Suggests: drat, IFC

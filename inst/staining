@@ -1,0 +1,58 @@
+################################################################################
+# This file is released under the GNU General Public License, Version 3, GPL-3 #
+# Copyright (C) 2020 Yohann Demont                                             #
+#                                                                              #
+# It is part of IFC package, please cite:                                      #
+# -IFCdata: Data example for Imaging Flow Cytometry                            #
+# -YEAR: 2020                                                                  #
+# -COPYRIGHT HOLDERS: Yohann Demont, Jean-Pierre Marolleau, Loïc Garçon,       #
+#                     CHU Amiens, HEMATIM - UR UPJV 4666                       #
+#                                                                              #
+# DISCLAIMER:                                                                  #
+# -You are using this package on your own risk!                                #
+# -We do not guarantee privacy nor confidentiality.                            #
+# -This program is distributed in the hope that it will be useful, but WITHOUT #
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or        #
+# FITNESS FOR A PARTICULAR PURPOSE. In no event shall the copyright holders or #
+# contributors be liable for any direct, indirect, incidental, special,        #
+# exemplary, or consequential damages (including, but not limited to,          #
+# procurement of substitute goods or services; loss of use, data, or profits;  #
+# or business interruption) however caused and on any theory of liability,     #
+# whether in contract, strict liability, or tort (including negligence or      #
+# otherwise) arising in any way out of the use of this software, even if       #
+# advised of the possibility of such damage.                                   #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with IFCdata. If not, see <http://www.gnu.org/licenses/>.              #
+################################################################################
+
+Collection:
+40 mL of UT7/EPO growing cells at 5 x 10^3 cells/mL were collected.
+Cells were centrifuged 5 min at 300g RT and supernatant discarded.
+Cells fixed with 2 mL of 0Ca++, 0Mg++ PBS, 4% PFA for 10 min at RT.
+Cells were centrifuged 5 min at 300g RT and supernatant discarded.
+Cells were stored at 4°C in 2mL 0Ca++, 0Mg++ PBS until staining.
+
+Staining:
+On staining day 3 x 10^6 cells were centrifuged 5 min at 300g RT and supernatant discarded.
+Cells were permeabilized with 600μL of 0Ca++, 0Mg++ PBS, 0.5% Triton X-100 15 min at RT.
+Cells were centrifuged 5 min at 300g RT and supernatant discarded.
+Cells were stained with 300μL 0Ca++, 0Mg++ PBS, 0.1% Triton X-100, 0.1% FBS for 1 H at 20°C with:
+- DAPI (dil 1/5000 from 1mg/mL, #A4099,0005, PanReac AppliChem)
+- anti phospho Histone H3 directly coupled with AF647 (dil 1/50, #650806, Biolegend)
+- anti phospho alpha Tubulin directly coupled with PE (dil 1/500, #ab208752, abcam)
+- anti ARK2 directly coupled with AF488 (dil 1/50, #sc393357, Santa Cruz Biotechnology)
+Cells were centrifuged 5 min at 300g RT and supernatant discarded.
+Cells were washed with 300μL 0Ca++, 0Mg++ PBS.
+Cells were centrifuged 5 min at 300g RT and supernatant discarded.
+Cells were resupended with 105μL 0Ca++, 0Mg++ PBS.
+
+For compensation:
+Mono stained cells were prepared with 1 x 10^6 cells and the above staining volume divided by 3
+
+For acquistion:
+Cells were acquired on staining day on ISX MkII© with INSPIRE® (200.1.620.0),
+Magnification at 40x,
+BF on channel 04 and DF on channel 06,
+375: 10.80; 488: 50.00; 642: 150.00; 785: 1.00,
+375 was adjuted to get G1 peak around 2 x 10e5 a.u.

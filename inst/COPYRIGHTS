@@ -1,5 +1,5 @@
-This package is private 
+This package is released under the GNU General Public License, Version 3, GPL-3 
 YEAR: 2020
-COPYRIGHT HOLDER: Yohann Demont, INSERM, UPD, CHU Amiens
-IFCdata: Data for Imaging Flow Cytometry
+COPYRIGHT HOLDER: Yohann Demont, CHU Amiens, HEMATIM - UR UPJV 4666
+IFCdata: Data example for Imaging Flow Cytometry
 Copyright (C) 2020 Yohann Demont

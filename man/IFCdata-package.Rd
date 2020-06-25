@@ -6,7 +6,7 @@
 \alias{IFCdata}
 \title{Data Package for Imaging Flow Cytometry}
 \description{
-It contains Imaging Flow Cytometry data.
+Contains Imaging Flow Cytometry data.
 }
 \author{
 Maintainer: Yohann Demont <git.demont@gmail.com>
