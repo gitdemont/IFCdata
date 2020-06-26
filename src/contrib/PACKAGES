@@ -3,5 +3,5 @@ Version: 0.0.1
 Depends: R (>= 3.4.0)
 Suggests: drat, IFC
 License: GPL-3
-MD5sum: c53431c088e3cfaa6e9481be66f294f8
+MD5sum: 7f0f2b6b5952008ad96873c3bfcf51ad
 NeedsCompilation: no
